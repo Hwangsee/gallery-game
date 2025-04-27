@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Input, Button, Form, Card, Typography } from 'antd';
 
 const { Title } = Typography;
@@ -35,7 +35,7 @@ const GamePage = () => {
     const updatedPlayers = [...players];
     if (field === 'score') {
       updatedPlayers[index][field] = Number(value);
-    } else {
+    } else if (field === 'name') {
       updatedPlayers[index][field] = value;
     }
     setPlayers(updatedPlayers);

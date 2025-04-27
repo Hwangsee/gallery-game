@@ -1,9 +1,9 @@
 ## 📚 기술 스택
 
-- React 18
+- React 19
 - TypeScript
 - Vite
-- React Router v6
+- React Router v7
 - Ant Design (antd)
 - Axios
 
@@ -24,5 +24,5 @@ yarn dev
 | ----------------- | ---------------------------------------- |
 | Ant Design (antd) | 빠른 UI 컨퍼런트 구축 및 일관된 스타일링 |
 | React Router Dom  | 페이지 이동 및 라우팅 처리               |
-| Axios             | API 호출 시 안정성 확률                  |
+| Axios             | API 호출 시 안정적                       |
 | Vite              | 빠른 개발 서버 구동을 위해 사용          |

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Table, Typography, Spin } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { fetchImages, ImageData } from '../api/images';

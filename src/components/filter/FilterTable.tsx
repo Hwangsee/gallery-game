@@ -1,4 +1,3 @@
-import React from 'react';
 import { Table, Input } from 'antd';
 import HighlightText from './HighlightText';
 

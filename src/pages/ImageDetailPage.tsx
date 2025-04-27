@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Card, Typography, Switch, Spin } from 'antd';
-
-const { Title } = Typography;
+import { Card, Switch, Spin } from 'antd';
 
 const ImageDetailPage = () => {
   const { id } = useParams<{ id: string }>();
